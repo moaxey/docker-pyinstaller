@@ -1,8 +1,8 @@
-FROM ubuntu:12.04
+FROM ubuntu:18.04
 SHELL ["/bin/bash", "-i", "-c"]
 
-ARG PYTHON_VERSION=3.6.6
-ARG PYINSTALLER_VERSION=3.4
+ARG PYTHON_VERSION=3.7.4
+ARG PYINSTALLER_VERSION=3.5
 
 ENV PYPI_URL=https://pypi.python.org/
 ENV PYPI_INDEX_URL=https://pypi.python.org/simple
